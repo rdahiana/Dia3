@@ -160,4 +160,8 @@ public class Reloj {
         // Mostrar la diferencia de tiempo
         System.out.println("La diferencia del tiempo es de " + diferenciaHoras + ":" + diferenciaMinutos + ":" + diferenciaSegundos);
     }
+
+    public void mensaje(){
+        System.out.printf("Hola");
+    }
 }
